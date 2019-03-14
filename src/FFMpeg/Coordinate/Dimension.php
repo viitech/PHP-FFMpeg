@@ -29,9 +29,9 @@ class Dimension
      */
     public function __construct($width, $height)
     {
-        if ($width <= 0 || $height <= 0) {
-            throw new InvalidArgumentException('Width and height should be positive integer');
-        }
+        //if ($width <= 0 || $height <= 0) {
+        //    throw new InvalidArgumentException('Width and height should be positive integer');
+        //}
 
         $this->width = (int) $width;
         $this->height = (int) $height;
